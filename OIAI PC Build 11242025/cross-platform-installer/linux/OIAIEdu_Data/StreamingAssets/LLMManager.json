@@ -1,0 +1,19 @@
+{
+    "downloadOnStart": true,
+    "modelEntries": [
+        {
+            "label": "",
+            "filename": "gemma-3-270m-it-Q3_K_M.gguf",
+            "path": "gemma-3-270m-it-Q3_K_M.gguf",
+            "lora": false,
+            "chatTemplate": "gemma",
+            "url": "https://huggingface.co/unsloth/gemma-3-270m-it-GGUF/resolve/main/gemma-3-270m-it-Q3_K_M.gguf",
+            "embeddingOnly": false,
+            "embeddingLength": 640,
+            "includeInBuild": true,
+            "contextLength": 32768
+        }
+    ],
+    "debugMode": 0,
+    "fullLlamaLib": false
+}

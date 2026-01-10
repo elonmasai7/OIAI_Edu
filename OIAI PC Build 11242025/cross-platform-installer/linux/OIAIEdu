@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# OIAI Edu Linux Launcher
+# This is a placeholder for the actual Linux build
+# In a real scenario, this would be the Linux executable from Unity
+
+APP_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+APP_NAME="OIAIEdu"
+
+echo "======================================="
+echo "  $APP_NAME - Linux Edition"
+echo "======================================="
+echo
+echo "This is a placeholder for the Linux build."
+echo "To create a proper Linux build:"
+echo "1. Open the Unity project"
+echo "2. Switch build target to Linux"
+echo "3. Build the application"
+echo "4. Replace this script with the actual executable"
+echo
+echo "Application data is available in: $APP_DIR/OIAIEdu_Data"
+echo
+read -p "Press Enter to exit..."

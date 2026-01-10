@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# OIAI Edu macOS Launcher
+# This is a placeholder for the actual macOS build
+# In a real scenario, this would be inside a .app bundle
+
+APP_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+APP_NAME="OIAIEdu"
+
+echo "======================================="
+echo "  $APP_NAME - macOS Edition"
+echo "======================================="
+echo
+echo "This is a placeholder for the macOS build."
+echo "To create a proper macOS build:"
+echo "1. Open the Unity project"
+echo "2. Switch build target to macOS"
+echo "3. Build the application"
+echo "4. Create proper .app bundle structure"
+echo
+echo "Application data is available in: $APP_DIR/OIAIEdu_Data"
+echo
+read -p "Press Enter to exit..."

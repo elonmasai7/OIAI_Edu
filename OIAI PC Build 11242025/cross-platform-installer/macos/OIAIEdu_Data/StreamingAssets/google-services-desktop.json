@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "380664427288",
+    "project_id": "oiai-b5266",
+    "storage_bucket": "oiai-b5266.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:380664427288:android:af4d78c2a38e686387646d",
+        "android_client_info": {
+          "package_name": "com.OtermansInstitute.OI"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "YOUR_FIREBASE_API_KEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:380664427288:android:d955452ea617c90587646d",
+        "android_client_info": {
+          "package_name": "com.OtermansInstitute.OIAIEdu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "YOUR_FIREBASE_API_KEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
