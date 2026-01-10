@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "380664427288",
-    "project_id": "oiai-b5266",
-    "storage_bucket": "oiai-b5266.firebasestorage.app"
+    "project_number": "YOUR_PROJECT_NUMBER",
+    "project_id": "your-project-id",
+    "storage_bucket": "your-project-id.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:380664427288:android:af4d78c2a38e686387646d",
+        "mobilesdk_app_id": "1:YOUR_PROJECT_NUMBER:android:your_app_id",
         "android_client_info": {
           "package_name": "com.OtermansInstitute.OI"
         }
@@ -26,7 +26,7 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:380664427288:android:d955452ea617c90587646d",
+        "mobilesdk_app_id": "1:YOUR_PROJECT_NUMBER:android:your_app_id_2",
         "android_client_info": {
           "package_name": "com.OtermansInstitute.OIAIEdu"
         }

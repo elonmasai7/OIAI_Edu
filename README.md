@@ -18,7 +18,8 @@
   - [📱 iOS](#-ios)
 - [🖥️ System Requirements](#️-system-requirements)
 - [🚀 Quick Start Guide](#-quick-start-guide)
-- [🔧 Troubleshooting](#-troubleshooting)
+- [� Security & API Configuration](#-security--api-configuration)
+- [� Troubleshooting](#-troubleshooting)
 - [📞 Support & Contact](#-support--contact)
 
 ## 🌟 Features
@@ -155,6 +156,55 @@ iOS builds require App Store distribution. Currently available as documentation:
 5. **Launch**: Double-click the executable or use the desktop shortcut
 6. **First Time Setup**: Follow the in-app setup wizard
 7. **Start Learning**: Begin with the tutorial or jump into courses
+
+## 🔒 Security & API Configuration
+
+### ⚠️ Important Security Notice
+
+This repository contains placeholder API keys and configurations for demonstration purposes. **Never commit real API keys, passwords, or sensitive credentials to public repositories.**
+
+### For Developers: Setting Up API Keys
+
+If you're forking this project or setting up a development environment:
+
+1. **Copy the environment template**:
+   ```bash
+   cp .env.example .env
+   ```
+
+2. **Configure your API keys** in `.env`:
+   ```bash
+   # Firebase Configuration
+   FIREBASE_API_KEY=your_actual_firebase_api_key
+   FIREBASE_PROJECT_ID=your_project_id
+   FIREBASE_PROJECT_NUMBER=your_project_number
+
+   # Add other required API keys
+   ```
+
+3. **Update Firebase configuration files**:
+   - Replace placeholders in `google-services*.json` files with your actual Firebase project details
+   - Download your Firebase config from the Firebase Console
+
+4. **Restrict API keys** in production:
+   - Use Firebase Console to restrict API keys to specific domains/IPs
+   - Enable only necessary APIs for your application
+   - Monitor API usage and set up billing alerts
+
+### Security Best Practices
+
+- **Never commit** `.env` files containing real credentials
+- **Use environment variables** for all sensitive configuration
+- **Restrict API keys** to prevent unauthorized usage
+- **Rotate keys regularly** and monitor for suspicious activity
+- **Use HTTPS** for all API communications
+
+### Firebase Setup
+
+1. Create a Firebase project at [Firebase Console](https://console.firebase.google.com/)
+2. Enable required services (Authentication, Firestore, Storage, etc.)
+3. Generate API keys and download configuration files
+4. Replace placeholder values in this repository
 
 ## 🔧 Troubleshooting
 

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "YOUR_PROJECT_NUMBER",
+    "project_id": "your-project-id",
+    "storage_bucket": "your-project-id.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:YOUR_PROJECT_NUMBER:android:your_app_id",
+        "android_client_info": {
+          "package_name": "com.OtermansInstitute.OI"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "YOUR_FIREBASE_API_KEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:YOUR_PROJECT_NUMBER:android:your_app_id_2",
+        "android_client_info": {
+          "package_name": "com.OtermansInstitute.OIAIEdu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "YOUR_FIREBASE_API_KEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
