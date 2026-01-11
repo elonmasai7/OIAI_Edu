@@ -6,7 +6,6 @@
 
 > **Oterman's Institute AI Education Platform** - Revolutionizing education through AI-powered learning experiences across all major platforms.
 
-![OIAI Edu Banner](https://via.placeholder.com/1200x300/4F46E5/FFFFFF?text=OIAI+Edu+-+AI+Powered+Education)
 
 ## 📋 Table of Contents
 
@@ -259,3 +258,4 @@ If you're forking this project or setting up a development environment:
 [🌟 Star us on GitHub](https://github.com/elonmasai7/OIAI_Edu) • [📖 Read the Docs](OIAI%20PC%20Build%2011242025/cross-platform-installer/docs/README.md) • [🚀 Download Now](#-download--install)
 
 </div>
+
