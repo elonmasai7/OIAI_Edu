@@ -251,11 +251,6 @@ If you're forking this project or setting up a development environment:
 
 ---
 
-<div align="center">
-
-**Made with ❤️ by Oterman's Institute**
-
-[🌟 Star us on GitHub](https://github.com/elonmasai7/OIAI_Edu) • [📖 Read the Docs](OIAI%20PC%20Build%2011242025/cross-platform-installer/docs/README.md) • [🚀 Download Now](#-download--install)
-
 </div>
+
 
