@@ -251,6 +251,5 @@ If you're forking this project or setting up a development environment:
 
 ---
 
-</div>
 
 
